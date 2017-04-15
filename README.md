@@ -10,7 +10,7 @@ ubuntu下测试正常，其余未测。
 
 use:
 
-java -jar restore.jar <jarfile> <smalidir> <methodsig>
+java -jar restore.jar \<jarfile\> \<smalidir\> \<methodsig\>
 
 例:
 java -jar restore.jar classes-dex2jar.jar out Lcom/inca/security/coM6;->goto
